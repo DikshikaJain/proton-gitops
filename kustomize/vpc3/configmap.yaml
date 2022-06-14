@@ -4,4 +4,4 @@ kind: ConfigMap
 metadata:
   name: aws-configuration
 data:
-  region: us-west-2
+  region: us-east-2
