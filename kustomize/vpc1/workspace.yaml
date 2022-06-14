@@ -2,7 +2,7 @@ apiVersion: app.terraform.io/v1alpha1
 kind: Workspace
 metadata:
   name: vpc1
-  namespace: ''
+  namespace: 'edu'
 spec:
   module:
     source: git::https://github.com/DikshikaJain/proton-demo=2.0.1
