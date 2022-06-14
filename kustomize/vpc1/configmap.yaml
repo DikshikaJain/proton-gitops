@@ -3,4 +3,4 @@ data:
   region: us-west-2
 kind: ConfigMap
 metadata:
-  name: aws-configurationvpc1
+  name: aws-configuration
