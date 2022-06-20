@@ -5,7 +5,7 @@ metadata:
   namespace: edu
 spec:
   module:
-    source: git::https://github.com/DikshikaJain/proton-demo.git//vpc-test/?ref=2.0.3
+    source: git::https://github.com/DikshikaJain/proton-demo/tree/2.0.3
   organization: eks-org
   secretsMountPath: /tmp/secrets
   variables:
