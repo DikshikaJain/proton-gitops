@@ -7,15 +7,6 @@ spec:
   module:
     source: git::https://github.com/DikshikaJain/proton-demo.git/?ref=2.0.3
   organization: eks-org
-  outputs:
-  - key: vpc_id
-    moduleOutputName: vpc_id
-  - key: private_subnets
-    moduleOutputName: private_subnets
-  - key: public_subnets
-    moduleOutputName: public_subnets
-  - key: vpc_cidr_block
-    moduleOutputName: vpc_cidr_block
   secretsMountPath: /tmp/secrets
   variables:
   - environmentVariable: true
