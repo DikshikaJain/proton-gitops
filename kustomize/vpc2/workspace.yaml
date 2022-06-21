@@ -5,7 +5,7 @@ metadata:
   namespace: edu
 spec:
   module:
-    source: git::https://github.com/DikshikaJain/proton-demo.git//?ref=2.0.2
+    source: git::https://github.com/DikshikaJain/proton-demo.git/?ref=2.0.2
   organization: eks-org
   outputs:
   - key: vpc_id
